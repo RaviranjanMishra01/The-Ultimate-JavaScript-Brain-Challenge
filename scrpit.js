@@ -340,7 +340,7 @@ sountMic.addEventListener("click", () => {
     const currentSrc = sountMic.getAttribute("src");
     const fulltimesong = document.querySelector(".fullsong");
     if (currentSrc === "./assets/valume.svg") {
-        sountMic.setAttribute("src", "./assets/Valumemute.svg");
+        sountMic.setAttribute("src", "./assets/valumemute.svg");
         if (fulltimesong) fulltimesong.pause();
     } else {
         if (fulltimesong) fulltimesong.play();
